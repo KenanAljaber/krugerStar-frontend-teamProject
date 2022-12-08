@@ -8,16 +8,16 @@ function NavBar() {
     return (
 
         <>
-            <Navbar variant="dark" expand="lg" fixed='top' className='Navbar'>
-                <Container className=''>
+            <Navbar  expand="lg"  className='Navbar'>
+            <Container className=''>
                     <Nav>
                         <Nav.Item>
                             <Nav.Link href="#home" className='itemsNav text-white-50'>NOMBRE</Nav.Link>
                         </Nav.Item>
                     </Nav>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white' }} />
-                    <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end d-flex'>
-                        <Nav className="  ">
+                    <Navbar.Collapse id="basic-navbar-nav" className=''>
+                        <Nav className="m-auto">
                             <Nav.Item>
                                 <Nav.Link href="#home" className='itemsNav'>Home</Nav.Link>
                             </Nav.Item>
